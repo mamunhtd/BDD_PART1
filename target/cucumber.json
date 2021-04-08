@@ -1,0 +1,324 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2995393500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3013357500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinitions.beforeRun()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "validate-techfios-login-and-new-account-functionality-scenario-outline;user-should-be-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 884778300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 180023300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102605400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8111668600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Signin button",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107012300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5185370200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Cash\u0026Bank button",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_Cash_Bank_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1993337800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on New Account button",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_New_Account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8366200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should land on New Account Contact page",
+            "match": {
+              "location": "LoginStepDefinitions.user_should_land_on_New_Account_Contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174558500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter Valid Account Title as \"BUSSINESS CHECKING\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BUSSINESS CHECKING",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enter_Valid_Account_Title_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149662500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter Account Description as \"This is a BUSSINESS CHECKING\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This is a BUSSINESS CHECKING",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enter_Account_Description_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244486900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter Initial Balance as \"100000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000",
+                  "offset": 31
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enter_Initial_Balance_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222735400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enter Account Number as \"BCHK456000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BCHK456000",
+                  "offset": 30
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enter_Account_Number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194998800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter Contact Person Name as \"Mamun\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mamun",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enter_Contact_Person_Name_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160883900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter Contact person Phone Number as \"123456987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123456987",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enter_Contact_person_Phone_Number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98831900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enetr Internet Banking URL as \"www.xyzbank.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.xyzbank.com",
+                  "offset": 36
+                }
+              ],
+              "location": "LoginStepDefinitions.user_enetr_Internet_Banking_URL_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3267896200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User clicks On Submit button",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_On_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15491400,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Accounts]- iBilling\u003e but was:\u003c[Contacts ]- iBilling\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat steps.LoginStepDefinitions.user_Should_land_on_Account_Page(LoginStepDefinitions.java:177)\r\n\tat ✽.Then User Should land on Account Page(features/BankAndCash.feature:26)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "User Should land on Account Page",
+            "match": {
+              "location": "LoginStepDefinitions.user_Should_land_on_Account_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@Scenario5"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Techfios Login and New Account functionality scenario Outline",
+    "description": "",
+    "id": "validate-techfios-login-and-new-account-functionality-scenario-outline",
+    "keyword": "Feature",
+    "uri": "features/BankAndCash.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
